@@ -1,0 +1,345 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS Document */
+/* CSS 初始化 */
+body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,table,tr,td,form,p,ul,li,ol,span,img,a,em,i,strong,b,input,select,option,textarea,label{ margin:0; padding:0;}
+li{ list-style:none;}
+img{ border:0 none; vertical-align:top;}
+a{ color:#3c3c3c; text-decoration:none;}
+a:hover{ color:#ff4400;}
+body{ font-family:"宋体"; font-size:12px;}
+.clearfix{ zoom:1;}
+.clearfix:after{ content:"."; clear:both; visibility:hidden; height:0; display:block;}
+input,select,textarea{ outline:none;/*chrome，safari去掉高亮边框*/}
+/*主要*/
+body{
+	background:#e7e7e7;
+}
+#header{
+	width:100%;
+	height:56px;
+	background:#f7f7f7;
+}
+.header-layer{
+	width:980px;
+	height:100%;
+	margin:0 auto;
+}
+.logo{
+	float:left;
+}
+.nav{
+	float:left;
+	height:100%;
+	width:auto;
+	margin-left:11px;
+}
+.nav li{
+	float:left;
+}
+.nav a{
+	float:left;
+	width:auto;
+	height:auto;
+	background:url(../images/header%E5%BA%95.png) top left;
+}
+.nav span{
+	float:left;
+	width:auto;
+	height:56px;
+	line-height:56px;
+	margin-left:20px;
+	padding-right:20px;
+	background:url(../images/header%E5%BA%95.png) top left;
+	carsor:pointer;
+	font-size:18.66px;
+	color:#666666;
+}
+
+.register{
+	float:right;
+	width:55px;
+	height:30px;
+	margin:12px 15px 0 0;
+	background:url(../images/雪碧图.png) no-repeat 0 -64px;
+	line-height:30px;
+	text-align:center;
+}
+.login{
+	float:right;
+	width:55px;
+	height:30px;
+	margin:12px 8px 0 0;
+	background:url(../images/雪碧图.png) no-repeat 0 -32px;
+	line-height:30px;
+	text-align:center;
+}
+.register input,.login input{
+	border:0 none; 
+	background:none; 
+	line-height:30px; 
+	font-size:14px;
+	color:#FFF;
+}
+.search{ float:right; width:200px; height:30px; margin:12px 26px 0 0; background:url(../images/雪碧图.png) no-repeat 0 0;}
+.text{ float:left; width:161px; height:30px; line-height:30px; padding:0 0 0 9px; border:0 none; background:none;}
+.btn{ float:left; width:30px; height:30px; border:0 none; background:none; overflow:hidden; text-indent:-99em;}
+#content{
+	width:847px;
+	height:auto;
+	margin:22px auto 0;
+	border:1px solid #cfdfe0;
+	padding-left:34px;
+	background:#FFF;
+	padding-bottom:22px;
+}
+h3{
+	font-size:18px;
+	padding-top:21px;
+	color:#006699;
+}
+.p1{
+	width:auto;
+	height: auto;
+	font-size:12px;
+	margin:13px 0 0 0;
+	color:#444444;
+}
+.p2,.p3{
+	width:811px;
+	height:auto;
+	font-size:14px;
+	line-height:24px;
+	color:#444444;
+	text-indent:2em;
+}
+.p2{
+	margin-top:14px;
+}
+.p3{
+	margin-top:10px;
+}
+.page1{ 
+	text-align:center;
+	margin-top:18px;
+}
+.page1 a{
+	display:inline-block;
+	width:auto;
+	height:26px;
+	line-height:26px;
+	padding:0 10px;
+	background:#06F;
+	color:#fff;
+	text-decoration:none;
+	margin-left:4px;
+}
+.page1 a:hover{
+	background:#900;
+}
+.page2{
+	width:auto;
+	height:12px;
+	margin:34px 0 27px 0;
+}
+.page2 span{
+	color:#006699;
+}
+.string{
+	display:inline-block;
+	width:1px;
+	height:12px;
+	background:#bb99bb;
+	border-left:1px solid #f7f7d9;
+	border-right:1px solid #d9f7f7;
+	margin:0 16px;
+}
+.line{
+	width:auto;
+	height:0pc;
+	border-bottom:1px dotted #d2dada;
+	margin-right:30px;
+}
+.review{
+	width:auto;
+	height:auto;
+	margin-top:23px;
+}
+.review p{
+	width:auto;
+	height:auto;
+	font-size:14px;
+	color:#444444;
+	margin-top:23px;
+}
+.review_box{
+	width:auto;
+	height:auto;
+	margin-top:21px;
+}
+.review_text{
+	display:block;
+	width:818px;
+	height:105px;
+	border:1px solid #999999;
+}
+.review_btn{
+	width:55px;
+	height:30px;
+	margin-top:10px;
+	background:url(../images/雪碧图.png) no-repeat 0 -96px;
+	color:#FFF;
+	font-size:14px;
+	line-height:30px;
+	text-align:center;
+}
+.review_show p{
+	font-size:14px;
+	color:#444444;
+	width:auto;
+	height:auto;
+	margin:28px 0 18px 0;
+}
+.show1_p1,.show1_p2{
+	width:auto;
+	height:auto;
+	font-size:13px;
+	color:#797979;
+	line-height:17px;
+}
+.show1_p1{
+	margin-top:18px;
+}
+.show1_p2{
+	margin-top:18px 0 29px 0;
+	border-left:1px solid #d5d5d5;
+	padding-left:9px;
+	margin-left:34px;
+	text-decoration:underline;
+}
+#bottom{
+	width:100%;
+	height:92px;
+	text-align:center;
+}
+#shade{
+	width:100%;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:-100%;
+	z-index:1000;
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#3D000000', endColorstr='#3D000000');
+	background:rgba(0,0,0,0.24);
+	transition:top 2s;
+}
+.box{
+	position:absolute;
+	width:650px;
+	height:215px;
+	top:50%;
+	left:50%;
+	border:5px solid #3694d7;	
+	margin:-107px 0 0 -325px;
+	background:#FFF;
+}
+.denglu{
+	float:left;
+}
+.denglu_p{
+	width:104px;
+	height:23px;
+	line-height:23px;
+	padding-left:8px;
+	font-size:14px;
+}
+.denglu_form{
+	width:360px;
+	height:170px;
+	border-right:1px solid #cccccc;
+	padding-left:48px;
+}
+.label_1,.label_2{
+	display:block;
+	width:auto;
+	height:35px;
+	line-height:35px;
+	color:#444444;
+	
+}
+.label_2{
+	padding-left:12px;
+}
+.label_1 input,.label_2 input{
+	width:186px;
+	height:24px;
+	vertical-align:middle;
+	margin-left:10px;
+}
+
+.label_3{
+	display:block;
+	width:auto;
+	height:19px;
+	padding-left:58px;
+	margin-top:3px;
+	vertical-align:middle;
+	line-height:19px;
+	color:#444444;
+}
+.label_3 input{
+	vertical-align:middle;
+}
+.label_4{
+	padding-left:57px;
+}
+.label_4 input{
+	float:left;
+	width:55px;
+	height:30px;
+	background:url(../images/雪碧图.png) no-repeat 0 -160px;
+	color:#FFF;
+	font-size:14px;
+	line-height:30px;
+	margin-top:23px;
+	border:0 none; 
+	
+}
+.label_4 a{
+	float:left;
+	margin:28px 0 0 10px;
+	font-size:14px;
+	color:#006699;
+	text-decoration:underline;
+}
+.zhuce{
+	float:right;
+}
+.close{
+	margin:4px 3px 0 0;
+	color:#238fdb;
+	text-align:right;
+}
+.close a{
+	color:#238fdb;
+	font-size:14px;
+	carsor:point;
+}
+.zhuce p{
+	font-size:12px;
+	margin:22px 115px 0 0;
+}
+.zhuce_button{
+	width:55px;
+	height:30px;
+	margin:14px 154px 0 0;
+	background:url(../images/雪碧图.png) no-repeat 0 -192px;
+	text-align:center;
+}
+.zhuce_button input{
+	border:0 none; 
+	background:none;
+	line-height:30px;
+	text-align:center;
+	color:#FFF;
+}
